@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+body{
+    font-family: 'cabin', Nanito;
+    background-color:blueviolet;
+}
+
+
+.preheader h1{
+    font-weight: 900;
+    font-size:60px;
+    margin-bottom: 0;
+}
+.preheader nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 10px;
+}
+.search {
+    text-align: center;
+    margin-top:40px;
+}
+.search form input {
+    background-color: #f0f0f0; 
+    height:40px;
+    border:none;
+    width:40%;
+    border-radius: 50px;
+    padding-left: 15px;
+}
+
+.search form button {
+    border:none;
+     width:100px;
+    background-color: darkolivegreen;
+    color:white;
+    height: 40px;
+    border-radius: 50px;
+    font-weight: 900;
+}
+
+section {
+    width:100%;
+    margin:auto;
+}
+
+section .each-book {
+    display: flex;
+    margin-bottom: 30px;
+}
+section .each-book .info {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+section .each-book .info h3 {
+    font-weight: 900;
+}
+
+section .each-book .info h2 {
+    font-weight: 900;
+    color:blue;
+}
+section .each-book img {
+    width:100px;
+    height:auto;   
+}
+
+@media screen {and max-width: 320;
+    .preheader h1{
+        color: paleturquoise;
+        font-size: 50px;
+        margin: 30px;
+    }
+section {
+    width: 95%;
+}
+section.each-book{
+    flex-direction: column;
+}
+section.each-book img{
+    margin-bottom: 28px;
+}
+section.each-book.info{
+padding-left: 0;
+}
+    
+}
+
